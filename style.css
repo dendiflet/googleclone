@@ -1,60 +1,186 @@
-body {
-	width: 100%;
+
+/* du site de max PRIERE D'INDIQUER SI MODIF*/
+html, body {
+    width: 100%;
     height: 100%;
-	border: 2px solid black;
-}
-header, main, footer {
-    flex-shrink: 0;
+    font-family: arial;
 }
 
-.pagetotal {
+article {
     min-height: 100%;
     display: flex;
     flex-direction: column;
     align-items: stretch;
 }
 
-/*<!-- navbar >*/
-.boutonshd {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-end;
+main {
+    flex-grow: 1;
+    border: 3px solid purple;
 }
 
-/*.boutonappli {
-*/
+header, main, footer {
+    flex-shrink: 0;
+}
+/*fin du cop col du site a max PRIERE D'INDIQUER SI MODIF*/
 
+html {
+	display: flex;
+	flex-direction: column;
+}
+
+body {
+	margin: 0;
+	border: 2px solid black;
+}
+
+
+a
+{
+   color: #757575;
+   text-decoration: none;
+}
+a:hover
+{
+   text-decoration: underline;
+   color: #757575;
+}
+
+
+/*<!-- navbar >*/
+header {
+	margin-top: 10px
+	margin-right: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.boutonshd {
+  width: 250px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+}
+/* fin navbar*/
 
 
 /*<!-- corp de page>*/
 .nouvelle_fenetre {
+	margin-top: 50px;
 	display: flex;
-	justify-content: center;
-	flex-direction: column;
+justify-content: center;
+flex-direction: column;
+align-items: stretch;
 }
 
-.logo, .zonedesaisie {
+.zonedesaisie {
+
+	margin-top: 10px;
 	display: flex;
 	justify-content: center;
+
+}
+.boite {
+box-shadow: 1px 1px 3px #999;
+}
+
+.logo {
+	margin-top: 50px;
+	display:flex;
+	justify-content: center;
+
 }
 
 .deuxboutons{
+	margin-top: 10px;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
+	align-items: center;
 	border: 2px solid black;
 
 }
+
+
+.boutonvalid {
+	padding:6px 0 6px 0;
+	font:bold 13px Arial;
+	background:#fff;
+	color:#555;
+	border-radius:2px;
+	margin: 11px 6px;
+/*	width:150px;*/
+/*	border:1px solid #ccc;*/
+/*	box-shadow:1px 1px 3px #999;*/
+}
+
+/*fin du corp de page*/
 
 
 
 
 
 /*<!-- bas de page>*/
-.footer2 {
-  display: flex;
-	justify-content: center;
 
-align-items: flex-end;
+footer {
+	margin-bottom: 10px;
+	color: (0,200,200,0);
+	background-color: #f2f2f2;
+	display: flex;
+	flex-direction: column;
+	border: 3px solid black;
 
 }
+
+
+/* texte France*/
+.footer1 {
+	margin-left: 20px;
+	justify-content: flex-start;
+  border: 1px solid red;
+
+}
+/*fin text france*/
+
+
+/* alignement/écartement puis set taille boite écartement*/
+.footer2 {
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border: 1px solid green;
+}
+
+/*.footer2g {
+  display: flex;
+align-items: flex-start;
+		border: 1px solid blue;
+}*/
+.footerg {
+	width: 300px;
+ display:flex;
+ justify-content: space-around;
+}
+
+/*.footer2d {
+  display: flex;
+align-items: flex-end;
+	border: 1px solid purple;
+}
+*/
+.footerd {
+	width: 500px;
+ display:flex;
+ justify-content: space-around;
+
+}
+
+
+
+
+
+
+
+
+
