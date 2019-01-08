@@ -9,7 +9,7 @@
 #réponse bcp bcp plus bas
 #
 #liens de mon site sur github.page
-#https://dendiflet.github.io/gogole
+#https://dendiflet.github.io/google
 #
 #
 #
